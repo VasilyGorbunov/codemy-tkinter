@@ -5,7 +5,7 @@ root = Tk()
 root.title('Learn Python')
 root.iconbitmap('1.ico')
 
-my_img = ImageTk.PhotoImage(Image.open('1.jpg'))
+my_img = ImageTk.PhotoImage(Image.open('images/1.jpg'))
 my_label = Label(image=my_img, height=500)
 my_label.pack()
 
